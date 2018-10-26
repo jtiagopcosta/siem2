@@ -1,0 +1,48 @@
+/* páginas secundárias */
+.div_prin {
+	margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+	width:80%;
+	overflow: auto;
+	background-color: #333333;
+	min-width: 600px;
+} 
+p{
+	text-align: justify;
+	padding-right: 50px;
+}
+
+
+.imagem{
+	padding: 5px 50px 5px 5px;
+	width:15%;
+	height: auto;
+	float: left;
+}
+.icon{
+	width:5%;
+	height: auto;
+	padding: 10px 10px 10px 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.padding{
+	padding-left: 20px;
+	
+}
+
+a.b:link {
+    color: white;
+    background-color: transparent;
+}
+
+a.b:visited {
+    color: blue;
+    background-color: transparent;
+}
