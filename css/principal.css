@@ -8,10 +8,10 @@
 	width:60%;
 	overflow: hidden;
 	height: 1%;
-	background-color: #737373;
+	background-color: #404040;
 	min-width: 600px;
 	border-radius: 5px;
-	
+	padding: 5px;
 } 
 
 * {
@@ -20,7 +20,7 @@
 
 .column {
     float: left;
-    width: 25%;
+    width: 20%;
     padding: 5px;
 }
 
@@ -28,5 +28,12 @@
     content: "";
     clear: both;
     display: table;
-}
+} 
+.imagem{
+	border-style: groove;
+	border-width: 2px;
+	border-color: #ffffff;
+	border-radius: 4px;
+ }
  */
+

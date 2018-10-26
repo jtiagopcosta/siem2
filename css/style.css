@@ -41,7 +41,7 @@ h1 {
     padding: 0;
     overflow: hidden;
 	border: 5px;
-    background-color: #737373;
+    background-color: #404040;
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
@@ -65,11 +65,11 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(60, 60, 60);
+    background-color: #262626;
 }
 
 .active {
-    background-color: rgb(60, 60, 60);
+    background-color: #262626;
 	border-radius: 5px;
 } 
 
