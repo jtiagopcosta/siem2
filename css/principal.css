@@ -1,42 +1,19 @@
 /* página principal */
 
-.container {
-	width: 60%;
-	margin-top: 5px;
-	margin-right: auto;
-    margin-left: auto; 
-	background: aqua;
-	overflow: hidden;
-	height: 1%;
-	padding: 10px;
+.main_div {
 	
-}
-.div_prin {
-	/* margin-top: 5px;
+	margin-top: 5px;
     margin-right: auto;
-    margin-left: auto; 
-	float: left;
-	width:45%;
-	position:relative;
+    margin-left: auto;
+	width:60%;
 	overflow: hidden;
 	height: 1%;
-	background-color: #333333;
-	min-width: 600px; */
-	width: 70%;
-	overflow: hidden;
-	height: 1%;
-	float:left;
-	background-color: #333333;
+	background-color: #737373;
+	min-width: 600px;
+	border-radius: 5px;
 	
 } 
 
-.div_sec{
-	margin-left: 80%;
-	margin: auto;
-	height: 200px;
-	background-color: #333333;
-	
-}
 * {
     box-sizing: border-box;
 }

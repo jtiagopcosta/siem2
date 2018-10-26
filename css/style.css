@@ -1,6 +1,6 @@
 
 body {
-    background-color: #000000;
+    background-color: #c7c7c7;
 	font-family: "Trebuchet MS";
 	color: white;
 	
@@ -41,7 +41,7 @@ h1 {
     padding: 0;
     overflow: hidden;
 	border: 5px;
-    background-color: rgb(120, 120, 120);
+    background-color: #737373;
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
