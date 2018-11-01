@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet"  href="css/style.css" type="text/css"/>
+		<link rel="stylesheet"  href="css/sec.css" type="text/css"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	
+<body>
+	<div id="div_top">
+			<h1>Cin&eacutefilos.pt</h1>
+			<img src="./img/title.jpg" width="100%" height="100%">
+	</div>
+	<!-- menu -->
+	<ul>
+		<li><a href="index.html">Em destaque</a></li>
+		<li><a href="filmes.html">Filmes</a></li>
+		<li><a href="sobre.html">Sobre</a></li>
+		<li><a class="active"  href="formulario.html">Inserir</a></li>
+		<li  class="barrapesquisa">
+			<input type="search" name="pesquisa" placeholder="pesquisa" class="input p">
+		</li>
+	</ul>
+	
+	<div class="div_moderador">
+		<h2 class="subh2">Inserir Filmes</h2>
+
+		<section>
+		<table>	
+        <tr>
+		  <form action="/action_page.php">				
+			<th><input type="text"  class="input" name="nome" placeholder="Nome"></th>
+			<th><input type="text" class="input" name="genero" placeholder="Gênero"></th>
+			<th><input type="text" class="input" name="elenco" placeholder="Elenco"></th>
+			<th><input type="text" class="input" name="autor" placeholder="Autor"></th>
+			<th><input type="text" class="input" name="nacionalidade" placeholder="nacionalidade"></th>	
+		  </form>
+		   
+        </tr>
+        </table>
+		</section>	
+
+		<section class="sectextarea">
+		
+		<tr>	
+		     <th><textarea name="mensagem" class="textarea" value="Descrição" ></textarea></th>
+		</tr>
+		
+		</section>
+
+		<section class="secbutton"> 
+		<table cellspacing="15">
+		 <tr> 
+			 <th><button  class="submit" type="button" onclick="alert('Filme Inserido')">Submit</button></th>
+	     </tr>
+	    </table>
+		</section>
+	</div>	
+</body>
+
+</html>
