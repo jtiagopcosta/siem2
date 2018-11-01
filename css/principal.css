@@ -36,26 +36,4 @@
 	border-radius: 4px;
  }
  */
- .nulo{}
 
- .barrapesquisa {
-	float:right;
-	padding: 10px;
-}
-
-.p {
-	padding:5px 10px;
-}
-
-.input {
-	border:1px solid #25692A;
-	border-radius:4px;
-	cursor:text;
-	font-family:Verdana;
-	font-weight:bold;
-	font-size:13px;
-	padding:5px 10px;
-	text-decoration:none;
-	max-width: 130px;
-
-}
