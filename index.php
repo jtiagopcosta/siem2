@@ -6,6 +6,9 @@
 	</head>
 
 <body>
+
+		
+
 		<div id="div_top">
 			<h1>Cin&eacutefilos.pt</h1>
 			<img src="./img/title.jpg" width="100%" height="100%">
@@ -14,8 +17,8 @@
 	<!-- menu -->
 
 	<ul>
-		<li><a class="active" href="index.html">Em destaque</a></li>
-		<li><a href="filmes.html">Filmes</a></li>
+		<li><a class="active" href="index.php">Em destaque</a></li>
+		<li><a href="filmes.php">Filmes</a></li>
 		<li><a href="sobre.html">Sobre</a></li>
 		<li><a href="formulario.html">Inserir</a></li>
 		<li  class="barrapesquisa">
