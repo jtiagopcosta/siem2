@@ -15,66 +15,16 @@
 				<img src="./img/title.jpg" width="100%" height="100%">
 		</div>
 
-		<!-- menu -->
 		<ul>
 			<li><a href="index.php">Em destaque</a></li>
 			<li><a class="active" href="filmes.php">Filmes</a></li>
-			<li><a href="sobre.html" >Sobre</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
 			<li><a href="formulario.html">Inserir</a></li>
 			<li  class="barrapesquisa">
 				<input type="search" name="pesquisa" placeholder="pesquisa" class="input p">
 			</li>
 		</ul>
-		
-
-		<div class="container">
-
-			<?php
-			
-				/*$conn = pg_connect("host=db.fe.up.pt dbname=siem1818 user=siem1818 password=CMHTnbDy");
-				if (!$conn) {
-					echo "An error occured.\n";
-					exit;
-				}
-			
-				$query = "set schema 'trabalho2';";	
-				pg_exec($conn, $query);
-				
-				
-				$query = "select * from filmes;";
-				$result = pg_exec($conn, $query);*/
-				include("database/getfilmes.php");
-				$result = get_filmes();	
-				$numfilmes = pg_numrows($result);
-				
-				$i=0;
-
-				/*gera uma divisão para cada filme*/
-				while ($i < $numfilmes){
-
-					echo "<div class='main_div'>";
-					
-						$linha = pg_fetch_row($result,$i);
-						
-						echo "<a href='https://www.imdb.com/title/tt0120735/?ref_=nv_sr_1'>";
-						echo "<img class='imagem' src='/".$linha[7]."'>";
-						echo "</a>";
-						echo "<h2>" .$linha[1]. "</h2>";
-						echo "<h3>" .$linha[2]. "</h3>";
-						echo "<h4>Realizador: ".$linha[3]."</h4>";
-						echo "<h4>Elenco: ".$linha[4]." </h4>";
-						echo "<p>Descrição: " .$linha[5]." ";
-						echo "</p>";
-						
-					echo "</div>";
-					$i ++;
-				}
-
-	
-			
-			?>
-
-			<div class="sec_div">
+		<div class="sec_div">
 				<h2 class="subh2">Gêneros</h2>
 					<input type="checkbox" name="filme" value="drama"/>Drama <br>
 					<input type="checkbox" name="filme" value="açao">Ação<br>
@@ -91,7 +41,22 @@
 					<input type="checkbox" name="filme" value="romance">Romance<br>
 					<input type="checkbox" name="filme" value="ficcao">Ficção Científica<br>
 					<input class="submit" type="submit" value="Search" /><br><br>
-			</div>
+			</div>		
+
+		<div >
+					<div class='main_div'>					
+						
+						<a href='https://www.imdb.com/title/tt0120735/?ref_=nv_sr_1'>
+						<img class='imagem' src='/".$linha[7]."'>
+						</a>";
+						<h2>" .$linha[1]. "</h2>
+						<h3>" .$linha[2]. "</h3>
+						<h4>Realizador: ".$linha[3]."</h4>
+						<h4>Elenco: ".$linha[4]." </h4>
+						<p>Descrição: " .$linha[5]
+						</p>
+						
+					</div>
 		</div>	
 		
 	</body>

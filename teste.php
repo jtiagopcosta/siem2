@@ -15,21 +15,38 @@
 				<img src="./img/title.jpg" width="100%" height="100%">
 		</div>
 
-		<!-- menu -->
 		<ul>
 			<li><a href="index.php">Em destaque</a></li>
 			<li><a class="active" href="filmes.php">Filmes</a></li>
-			<li><a href="sobre.html" >Sobre</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
 			<li><a href="formulario.html">Inserir</a></li>
 			<li  class="barrapesquisa">
 				<input type="search" name="pesquisa" placeholder="pesquisa" class="input p">
 			</li>
 		</ul>
-		
+		<div class="sec_div">
+				<h2 class="subh2">Gêneros</h2>
+					<input type="checkbox" name="filme" value="drama"/>Drama <br>
+					<input type="checkbox" name="filme" value="açao">Ação<br>
+					<input type="checkbox" name="filme" value="aventura">Aventura<br>
+					<input type="checkbox" name="filme" value="policia">Policial<br>
+					<input type="checkbox" name="filme" value="terror">Terror<br>
+					<input type="checkbox" name="filme" value="comedia">Comédia<br>
+					<input type="checkbox" name="filme" value="documentario">Documentário<br>
+					<input type="checkbox" name="filme" value="animacao">Animação<br>
+					<input type="checkbox" name="filme" value="musical">Musical<br>
+					<input type="checkbox" name="filme" value="suspense">Suspense<br>
+					<input type="checkbox" name="filme" value="infantil">Infantil<br>
+					<input type="checkbox" name="filme" value="anime">Anime<br>
+					<input type="checkbox" name="filme" value="romance">Romance<br>
+					<input type="checkbox" name="filme" value="ficcao">Ficção Científica<br>
+					<input class="submit" type="submit" value="Search" /><br><br>
+			</div>		
 
-		<div class="container">
-
-			<?php
+		<div >
+					<div class='main_div'>					
+						
+						<?php
 			
 				/*$conn = pg_connect("host=db.fe.up.pt dbname=siem1818 user=siem1818 password=CMHTnbDy");
 				if (!$conn) {
@@ -74,24 +91,8 @@
 			
 			?>
 
-			<div class="sec_div">
-				<h2 class="subh2">Gêneros</h2>
-					<input type="checkbox" name="filme" value="drama"/>Drama <br>
-					<input type="checkbox" name="filme" value="açao">Ação<br>
-					<input type="checkbox" name="filme" value="aventura">Aventura<br>
-					<input type="checkbox" name="filme" value="policia">Policial<br>
-					<input type="checkbox" name="filme" value="terror">Terror<br>
-					<input type="checkbox" name="filme" value="comedia">Comédia<br>
-					<input type="checkbox" name="filme" value="documentario">Documentário<br>
-					<input type="checkbox" name="filme" value="animacao">Animação<br>
-					<input type="checkbox" name="filme" value="musical">Musical<br>
-					<input type="checkbox" name="filme" value="suspense">Suspense<br>
-					<input type="checkbox" name="filme" value="infantil">Infantil<br>
-					<input type="checkbox" name="filme" value="anime">Anime<br>
-					<input type="checkbox" name="filme" value="romance">Romance<br>
-					<input type="checkbox" name="filme" value="ficcao">Ficção Científica<br>
-					<input class="submit" type="submit" value="Search" /><br><br>
-			</div>
+						
+					</div>
 		</div>	
 		
 	</body>

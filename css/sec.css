@@ -12,19 +12,23 @@
 	
 }
 .main_div {	
-	width: 79%;
 	overflow: hidden;
 	height: 1%;
 	float:left;
 	background-color: #404040;
 	border-radius: 5px;
 	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 20%;
+	margin-right: auto;
+	width: 47.5%;
 } 
 
-.sec_div{	
+.sec_div{
+    margin-top: 5px;	
 	float: right;
-	width: 20%;
-	margin: auto;
+	width: 12%;
+	margin-right: 20%;
 	height: 400px;
 	background-color: #737373;
 	border-radius: 5px;
@@ -141,4 +145,16 @@ h3 {
 
 .p {
 	padding:5px 10px;
+}
+
+div.menu
+{
+width: 300px;
+height: 500px;
+background-color: #333;
+float: left;
+}
+.menu ul li
+{
+margem-fundo: 20px;
 }
