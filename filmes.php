@@ -31,6 +31,10 @@
 
 			<?php
 			
+<<<<<<< HEAD
+				include("database/getfilmes.php");
+
+=======
 				/*$conn = pg_connect("host=db.fe.up.pt dbname=siem1818 user=siem1818 password=CMHTnbDy");
 				if (!$conn) {
 					echo "An error occured.\n";
@@ -44,12 +48,17 @@
 				$query = "select * from filmes;";
 				$result = pg_exec($conn, $query);*/
 				include("database/getfilmes.php");
+>>>>>>> 0f5f415d0f6b4d43b368d6127bd40e9ac9d3341a
 				$result = get_filmes();	
 				$numfilmes = pg_numrows($result);
 				
 				$i=0;
 
+<<<<<<< HEAD
+				/*gera uma divisão para cada filme existente na base de dados*/
+=======
 				/*gera uma divisão para cada filme*/
+>>>>>>> 0f5f415d0f6b4d43b368d6127bd40e9ac9d3341a
 				while ($i < $numfilmes){
 
 					echo "<div class='main_div'>";
@@ -57,7 +66,11 @@
 						$linha = pg_fetch_row($result,$i);
 						
 						echo "<a href='https://www.imdb.com/title/tt0120735/?ref_=nv_sr_1'>";
+<<<<<<< HEAD
+						echo "<img class='imagem' src=".$linha[7]."/>";
+=======
 						echo "<img class='imagem' src='/".$linha[7]."'>";
+>>>>>>> 0f5f415d0f6b4d43b368d6127bd40e9ac9d3341a
 						echo "</a>";
 						echo "<h2>" .$linha[1]. "</h2>";
 						echo "<h3>" .$linha[2]. "</h3>";
